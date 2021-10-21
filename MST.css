@@ -1,0 +1,47 @@
+html {
+     background-image: linear-gradient(to bottom, #feada6 0%, #f5efef 100%);
+     no-repeat center center fixed;
+     background-size: cover;
+     height: 100%;
+     overflow: hidden;
+}
+
+.logo {
+    text-align: center;
+    text-decoration: ;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0 2px;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: transparent;
+}
+
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #04AA6D;
