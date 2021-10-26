@@ -3,12 +3,22 @@ html {
      no-repeat center center fixed;
      background-size: cover;
      height: 100%;
-     overflow: hidden;
+     overflow: scroll;
+}
+
+.headbg {
+    text-align: center;
 }
 
 .logo {
     text-align: center;
-    text-decoration: ;
+    font-family: 'Roboto',
+    sans-serif;
+    font-size: 80px;
+    margin-bottom: 30px;
+    color: #fff;
+    font-weight: 800;
+    font-style: italic;
 }
 
 nav ul {
