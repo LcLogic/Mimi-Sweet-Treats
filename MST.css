@@ -1,9 +1,9 @@
 html {
-     background-image: linear-gradient(to bottom, #feada6 0%, #f5efef 100%);
-     no-repeat center center fixed;
-     background-size: cover;
-     height: 100%;
-     overflow: scroll;
+    min-height: 100%;
+}
+
+body {
+    background: linear-gradient(#feada6, #f5efef);
 }
 
 .headbg {
@@ -11,15 +11,20 @@ html {
 }
 
 .logo {
+    color: #ffafc3;
     text-align: center;
-    font-family: 'Roboto',
-    sans-serif;
-    font-size: 80px;
+    position: absolute;
+    top: 52%;
+    left: 51%;
+    transform: translate(-50%, -50%);
+    font-family: 'Rouge Script', cursive;
+    font-size: 100px;
     margin-bottom: 30px;
-    color: #fff;
     font-weight: 800;
     font-style: italic;
+    text-shadow: 1px 1px 2px #082b34;
 }
+
 
 nav ul {
     list-style: none;
@@ -55,3 +60,11 @@ li a:hover:not(.active) {
 
 .active {
     background-color: #04AA6D;
+}
+
+#carousel {
+    position: relative;
+    left: 35%;
+    height: 10%;
+    width: 30%;
+}
